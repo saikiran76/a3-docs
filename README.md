@@ -49,13 +49,13 @@ Images should be added to `images/assets` and embedded with relative paths, like
 ![](../../../images/assets/user-menu.png)
 ```
 
-**If you add a new top level page,** you will need to edit `docs/.vuepress/config.js`. **If you add a new deeper page,** you will need to edit `docs/.vuepress/sidebar.json`.  Otherwise it will not appear in the navigation.
+**If you add a new top level page,** you will need to edit `docs/.vuepress/config.js`. **If you add a new deeper page,** you will need to edit `docs/.vuepress/sidebar.json`.  Otherwise, it will not appear in the navigation.
 
 ### 3. Linking to other pages
 
 When creating links in the body of a documentation page that point to another
 page of documentation, either make sure the link is relative and pointing to the
-`.md` extension OR use the file path starting starting after the `docs`
+`.md` extension OR use the file path starting after the `docs`
 directory. So you would link to `docs/devops/email.md` with
 `[link text](/devops/email.md)`.
 
@@ -68,6 +68,6 @@ repository. Please include as much context for the change as is reasonable in
 the PR description.
 
 ## Notes about using the Apostrophe Vuepress theme
-This site uses [`vuepress-theme-apostrophe`](https://github.com/apostrophecms/vuepress-theme-apostrophe), which imports *stylesheets, components, and plugins (and their configurations)*. Other modifications, like enhancements to the markdown parser, must be present at project level across all vuepress sites that need them.
+This site uses [`vuepress-theme-apostrophe`](https://github.com/apostrophecms/vuepress-theme-apostrophe), which imports *stylesheets, components, and plugins (and their configurations)*. Other modifications, like enhancements to the markdown parser, must be present at the project level across all Vuepress sites that need them.
 
 Use this space to make other notes particular to the theme's shared resources
